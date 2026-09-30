@@ -28,7 +28,6 @@
       "headers": [{ "key": "Cache-Control", "value": "public, max-age=3600" }]
     }
   ],
-  "crons": [{"path":"/api/cron/cleanup","schedule":"*/5 * * * *"}],
   "cleanUrls": true,
   "trailingSlash": false
 }
