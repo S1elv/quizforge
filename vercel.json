@@ -3,12 +3,7 @@
   "buildCommand": "npm run build --workspace client",
   "outputDirectory": "client/dist",
   "framework": "vite",
-  "functions": {
-    "api/index.ts": {
-      "runtime": "nodejs22.x",
-      "maxDuration": 60
-    }
-  },
+  
   "rewrites": [
     { "source": "/api", "destination": "/api/index" },
     { "source": "/api/:path*", "destination": "/api/index?__qf_path=:path*" },
